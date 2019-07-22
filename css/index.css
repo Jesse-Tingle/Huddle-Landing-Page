@@ -146,8 +146,20 @@ html .container header {
   background-color: #edfbfe;
   background-size: 20px;
   background-size: cover;
+  padding-right: 40px;
+  height: 550px;
 }
-html .container header button {
+html .container header .img-and-button {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+html .container header .img-and-button .logo {
+  height: 25px;
+  padding-left: 65px;
+}
+html .container header .img-and-button button {
   background-color: white;
   font-family: sans-serif;
   width: 125px;
@@ -155,7 +167,37 @@ html .container header button {
   border-radius: 15px;
   border: none;
   box-shadow: 0px 4px 6px #8584842b;
+  font-weight: bold;
 }
-html .container header #image-mockup {
-  height: 250px;
+html .container header .line-up-content {
+  display: flex;
+}
+html .container header .line-up-content .header-text {
+  padding-top: 140px;
+  padding-left: 65px;
+}
+html .container header .line-up-content .header-text h1 {
+  font-size: 3.7em;
+  font-weight: bold;
+  width: 70%;
+}
+html .container header .line-up-content .header-text p {
+  font-size: 1.38em;
+  width: 60%;
+  line-height: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+html .container header .line-up-content .header-text .header-content-btn {
+  width: 220px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #ff52c1;
+  color: white;
+  font-weight: bold;
+}
+html .container header .line-up-content #image-mockup {
+  height: 350px;
+  position: relative;
+  top: 75px;
 }
