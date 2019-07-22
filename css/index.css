@@ -138,6 +138,9 @@ body {
 html {
   font-size: 62.5%;
 }
+html .container {
+  width: 1440px;
+}
 html .container header {
   background-image: url("../images/bg-hero-desktop.svg");
   background-color: #edfbfe;
