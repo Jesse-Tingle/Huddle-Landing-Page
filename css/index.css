@@ -144,7 +144,6 @@ html .container {
 html .container header {
   background-image: url("../images/bg-hero-desktop.svg");
   background-color: #edfbfe;
-  background-size: 20px;
   background-size: cover;
   padding-right: 40px;
   height: 550px;
