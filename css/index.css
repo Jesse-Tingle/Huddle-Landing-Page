@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+html .container {
+  width: 100%;
+}
+html .container header {
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-color: #edfbfe;
+  background-size: cover;
+  padding-right: 40px;
+  height: 550px;
+}
+html .container header .img-and-button {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+html .container header .img-and-button .logo {
+  height: 25px;
+  padding-left: 65px;
+}
+html .container header .img-and-button button {
+  background-color: white;
+  font-family: sans-serif;
+  width: 125px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 4px 6px #8584842b;
+  font-weight: bold;
+}
+html .container header .line-up-content {
+  display: flex;
+}
+html .container header .line-up-content .header-text {
+  padding-top: 140px;
+  padding-left: 65px;
+}
+html .container header .line-up-content .header-text h1 {
+  font-size: 3.7em;
+  font-weight: bold;
+  width: 70%;
+}
+html .container header .line-up-content .header-text p {
+  font-size: 1.38em;
+  width: 60%;
+  line-height: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+html .container header .line-up-content .header-text .header-content-btn {
+  width: 220px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #ff52c1;
+  color: white;
+  font-weight: bold;
+}
+html .container header .line-up-content #image-mockup {
+  height: 350px;
+  position: relative;
+  top: 75px;
+}
